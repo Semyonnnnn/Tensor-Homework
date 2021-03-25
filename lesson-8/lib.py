@@ -3,8 +3,6 @@ from math import pi
 class Rectangle():
     def area(self, a, b):
         result = a * b
-        # self.a = result
-        # self.a = result
         return result
     
     
@@ -24,7 +22,6 @@ class Triangle():
 class Parallelepiped(Rectangle):
     def area3d(self, a, b, c):
         result3d = self.area(a, b) * c
-        # result3d = self.a * c
         return result3d
 
 class Sphere(Circle):
